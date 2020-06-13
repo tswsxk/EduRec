@@ -1,0 +1,2 @@
+# EduRec
+Educational Recommendation Systems
