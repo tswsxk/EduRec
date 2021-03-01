@@ -13,6 +13,7 @@ setup(
         'test': test_deps,
     },
     install_requires=[
+        "EduSim>=0.1.0"
     ],  # And any other dependencies foo needs
     entry_points={
     },
