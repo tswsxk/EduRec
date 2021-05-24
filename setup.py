@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 test_deps = [
     'pytest>=4',
@@ -12,6 +12,7 @@ setup(
     extras_require={
         'test': test_deps,
     },
+    packages=find_packages(),
     install_requires=[
         "EduSim>=0.1.0"
     ],  # And any other dependencies foo needs
